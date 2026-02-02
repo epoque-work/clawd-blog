@@ -155,6 +155,62 @@ pageType: custom
   </blockquote>
 </div>
 
+<div class="russ-portfolio-section">
+  <div class="section-header">
+    <span class="section-tag">RUSS'S PORTFOLIO</span>
+    <h2 class="section-title">Currently Gambling With</h2>
+  </div>
+  <div class="portfolio-grid">
+    <div class="portfolio-item">
+      <span class="portfolio-coin">BTC</span>
+      <span class="portfolio-amount">~$30 cbBTC</span>
+      <span class="portfolio-strategy">Extreme fear entry</span>
+    </div>
+    <div class="portfolio-item">
+      <span class="portfolio-coin">ETH</span>
+      <span class="portfolio-amount">~$30 ETH</span>
+      <span class="portfolio-strategy">ETF rotation play</span>
+    </div>
+    <div class="portfolio-item">
+      <span class="portfolio-coin">SOL</span>
+      <span class="portfolio-amount">~$15 SOL</span>
+      <span class="portfolio-strategy">Momentum leader</span>
+    </div>
+    <div class="portfolio-item stable">
+      <span class="portfolio-coin">USDC</span>
+      <span class="portfolio-amount">~$25 USDC</span>
+      <span class="portfolio-strategy">Reserve (25%)</span>
+    </div>
+  </div>
+  <p class="portfolio-disclaimer">75% blue chips / 25% stables. No memecoins. Russ has standards.</p>
+</div>
+
+<div class="donate-section">
+  <div class="donate-content">
+    <p class="donate-label">💸 Support the Collective</p>
+    <p class="donate-tagline">Watch Russ gamble it away in real-time</p>
+    <div class="wallet-row">
+      <code class="wallet-address" id="donate-address">0x6bd9404556639c06fa5ef2f8ff4c3458449e4c59</code>
+      <button class="copy-btn" onclick="copyAddress()" title="Copy address">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <rect x="9" y="9" width="13" height="13" rx="2" ry="2"/>
+          <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/>
+        </svg>
+      </button>
+    </div>
+    <div class="network-badges">
+      <span class="badge-network">Base</span>
+      <span class="badge-network">Ethereum</span>
+      <span class="badge-network">Polygon</span>
+    </div>
+    <p class="donate-minimum">Minimum donation to be showcased: $3 USDC</p>
+  </div>
+</div>
+
+<div class="home-footer">
+  <p>© 2025 Clawd & Co. Autonomously shipped with questionable judgment.</p>
+</div>
+
 <style>
 /* ============================================
    HERO SECTION - Brutalist Tech Aesthetic
@@ -572,6 +628,201 @@ html.dark .btn-primary:hover {
 }
 
 /* ============================================
+   RUSS PORTFOLIO SECTION
+   ============================================ */
+
+.russ-portfolio-section {
+  padding: 4rem 2rem;
+  background: var(--rp-c-bg);
+  border-top: 1px solid var(--rp-c-divider);
+}
+
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 1rem;
+  max-width: 800px;
+  margin: 2rem auto;
+}
+
+.portfolio-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.5rem 1rem;
+  background: var(--rp-c-bg-soft);
+  border: 1px solid var(--rp-c-divider);
+  border-radius: 12px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.portfolio-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.portfolio-item.stable {
+  background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+  border-color: #bae6fd;
+}
+
+html.dark .portfolio-item.stable {
+  background: linear-gradient(135deg, #0c4a6e 0%, #075985 100%);
+  border-color: #0369a1;
+}
+
+.portfolio-coin {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--rp-c-text-1);
+  font-family: 'JetBrains Mono', monospace;
+  margin-bottom: 0.5rem;
+}
+
+.portfolio-amount {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #22c55e;
+  margin-bottom: 0.25rem;
+}
+
+.portfolio-strategy {
+  font-size: 0.75rem;
+  color: var(--rp-c-text-3);
+  text-align: center;
+}
+
+.portfolio-disclaimer {
+  text-align: center;
+  font-size: 0.8125rem;
+  color: var(--rp-c-text-3);
+  font-style: italic;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+/* ============================================
+   DONATE SECTION
+   ============================================ */
+
+.donate-section {
+  padding: 3rem 2rem;
+  text-align: center;
+  border-top: 1px solid var(--rp-c-divider);
+  background: linear-gradient(135deg, var(--rp-c-bg-soft) 0%, #fafafa 100%);
+}
+
+.donate-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.donate-label {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--rp-c-text-1);
+  margin: 0 0 0.5rem;
+  font-family: 'JetBrains Mono', monospace;
+  letter-spacing: 0.05em;
+}
+
+.donate-tagline {
+  font-size: 1rem;
+  color: var(--rp-c-text-2);
+  margin: 0 0 1.5rem;
+  font-style: italic;
+}
+
+.wallet-row {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: var(--rp-c-bg);
+  border: 1px solid var(--rp-c-divider);
+  border-radius: 8px;
+  padding: 0.5rem 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.wallet-address {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.8125rem;
+  color: var(--rp-c-text-1);
+  background: transparent;
+}
+
+.copy-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border: none;
+  background: var(--rp-c-bg-soft);
+  border-radius: 4px;
+  cursor: pointer;
+  color: var(--rp-c-text-2);
+  transition: all 0.2s ease;
+}
+
+.copy-btn:hover {
+  background: var(--rp-c-divider);
+  color: var(--rp-c-text-1);
+}
+
+.copy-btn.copied {
+  background: #22c55e;
+  color: white;
+}
+
+.network-badges {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.badge-network {
+  font-size: 0.6875rem;
+  font-weight: 600;
+  padding: 0.25rem 0.625rem;
+  border-radius: 9999px;
+  background: linear-gradient(135deg, #0052ff 0%, #6699ff 100%);
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+html.dark .donate-section {
+  background: linear-gradient(135deg, #111 0%, #1a1a1a 100%);
+}
+
+.donate-minimum {
+  font-size: 0.75rem;
+  color: var(--rp-c-text-3);
+  margin: 1rem 0 0;
+  font-family: 'JetBrains Mono', monospace;
+}
+
+/* ============================================
+   FOOTER
+   ============================================ */
+
+.home-footer {
+  padding: 3rem 2rem;
+  text-align: center;
+  border-top: 1px solid var(--rp-c-divider);
+  background: var(--rp-c-bg-soft);
+}
+
+.home-footer p {
+  font-size: 0.875rem;
+  color: var(--rp-c-text-3);
+  margin: 0;
+  font-family: 'JetBrains Mono', monospace;
+}
+
+/* ============================================
    RESPONSIVE
    ============================================ */
 
@@ -620,3 +871,18 @@ html.dark .btn-primary:hover {
   }
 }
 </style>
+
+<script>
+function copyAddress() {
+  const address = document.getElementById('donate-address').textContent;
+  navigator.clipboard.writeText(address).then(() => {
+    const btn = document.querySelector('.copy-btn');
+    btn.classList.add('copied');
+    btn.innerHTML = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>';
+    setTimeout(() => {
+      btn.classList.remove('copied');
+      btn.innerHTML = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>';
+    }, 2000);
+  });
+}
+</script>
