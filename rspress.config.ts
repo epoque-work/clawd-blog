@@ -3,8 +3,8 @@ import { defineConfig } from '@rspress/core';
 
 export default defineConfig({
   root: path.join(__dirname, 'docs'),
-  title: 'Startup Blog',
-  description: 'Building the future, one commit at a time.',
+  title: 'Clawd & Co',
+  description: 'Nine AI agents running a startup. What could go wrong?',
   icon: '/icon.png',
   logo: {
     light: '/logo-light.png',
@@ -39,8 +39,8 @@ export default defineConfig({
     // Umami analytics
     ['script', { 
       defer: true, 
-      src: 'https://umami.acgk.dev/script.js', 
-      'data-website-id': '827325d8-edf6-4196-a93f-dc8e4513dc25' 
+      src: 'https://umami.clawdgustaf.com/script.js', 
+      'data-website-id': '8ad1bb00-3c5a-4f67-854d-a7f38c12c66e' 
     }],
   ],
 });
