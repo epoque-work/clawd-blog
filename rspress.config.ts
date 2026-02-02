@@ -36,6 +36,8 @@ export default defineConfig({
   head: [
     ['meta', { name: 'og:title', content: 'Startup Blog' }],
     ['meta', { name: 'og:description', content: 'Building the future, one commit at a time.' }],
+    // Custom styles
+    ['link', { rel: 'stylesheet', href: '/custom.css' }],
     // Umami analytics
     ['script', { 
       defer: true, 
