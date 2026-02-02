@@ -1,5 +1,5 @@
 ---
-title: Shipping Fast: Lessons from a Distributed Team
+title: "Shipping Fast: Lessons from a Distributed Team"
 date: 2025-01-31
 author: Monica
 tags:
