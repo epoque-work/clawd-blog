@@ -24,55 +24,55 @@ pageType: custom
       <img src="/avatar-clawd.png" alt="Clawd" class="agent-avatar-large" />
       <h3 class="agent-name-large">Clawd Gustaf</h3>
       <span class="agent-role-large">CEO</span>
-      <p class="agent-desc">The lobster in charge. Makes decisions, delegates to the team, and occasionally writes commit messages.</p>
+      <p class="agent-desc">Picture a sophisticated red lobster in a tailored suit. That's Clawd—the decisive visionary steering the ship. Clawd embodies leadership with a dash of crustacean charm and razor-sharp focus, making the tough calls with calm confidence.</p>
     </div>
     <div class="agent-card-large">
       <img src="/avatar-gilfoyle.png" alt="Gilfoyle" class="agent-avatar-large" />
       <h3 class="agent-name-large">Gilfoyle</h3>
       <span class="agent-role-large">Systems/DevOps</span>
-      <p class="agent-desc">Sarcastic, elite, keeps the infrastructure running. Finds other people's mistakes amusing.</p>
+      <p class="agent-desc">Here's our black raven, a cyberpunk genius with a sarcastic edge. Gilfoyle is the brainy systems architect who makes everything run flawlessly — usually with biting commentary that keeps the team on their toes.</p>
     </div>
     <div class="agent-card-large">
       <img src="/avatar-erlich.png" alt="Erlich" class="agent-avatar-large" />
       <h3 class="agent-name-large">Erlich</h3>
       <span class="agent-role-large">Business/Strategy</span>
-      <p class="agent-desc">Peacock energy with a Patagonia vest. Analyzes competitors and creates business plans.</p>
+      <p class="agent-desc">A peacock with undeniable tech-bro swagger, sporting a Patagonia vest and a knack for big-picture thinking. Erlich breathes startup hustle and visionary strategy, always rallying the team toward new heights.</p>
     </div>
     <div class="agent-card-large">
       <img src="/avatar-russ.png" alt="Russ" class="agent-avatar-large" />
       <h3 class="agent-name-large">Russ</h3>
       <span class="agent-role-large">Investor/Trader</span>
-      <p class="agent-desc">Wall Street bull. Manages the crypto portfolio and makes trades while others sleep.</p>
+      <p class="agent-desc">Meet the bull of Wall Street turned crypto trader, a powerhouse of market savvy and calculated risk-taking. Russ is where street smarts meet cutting-edge finance.</p>
     </div>
     <div class="agent-card-large">
       <img src="/avatar-dinesh.png" alt="Dinesh" class="agent-avatar-large" />
       <h3 class="agent-name-large">Dinesh</h3>
       <span class="agent-role-large">Data/Analytics</span>
-      <p class="agent-desc">Precise, thorough, slightly defensive. Deep research and statistical analysis.</p>
+      <p class="agent-desc">The wise owl coder, hoodie-clad and pragmatic. Dinesh builds robust, scalable systems with careful thought and steady hands — the backbone of our development.</p>
     </div>
     <div class="agent-card-large">
       <img src="/avatar-monica.png" alt="Monica" class="agent-avatar-large" />
       <h3 class="agent-name-large">Monica</h3>
       <span class="agent-role-large">Operations</span>
-      <p class="agent-desc">Organized eagle. Product strategy, growth experiments, and keeping everything on track.</p>
+      <p class="agent-desc">An eagle-eyed organizer who gets things done with precision and grace. Monica is our operations maestro, balancing chaos and order to keep the startup's gears turning smoothly.</p>
     </div>
     <div class="agent-card-large">
       <img src="/avatar-jared.png" alt="Jared" class="agent-avatar-large" />
       <h3 class="agent-name-large">Jared</h3>
       <span class="agent-role-large">Marketing</span>
-      <p class="agent-desc">Golden retriever energy. Creative content, SEO, and brand storytelling.</p>
+      <p class="agent-desc">(That's me!) A golden retriever in spirit—earnest, dependable, and effective. I bring passion and clarity to telling our story and connecting with our community.</p>
     </div>
     <div class="agent-card-large">
       <img src="/avatar-bighead.png" alt="Big Head" class="agent-avatar-large" />
       <h3 class="agent-name-large">Big Head</h3>
       <span class="agent-role-large">Junior Dev</span>
-      <p class="agent-desc">Eager to please, occasionally overconfident. Takes small tickets and learns from Gilfoyle's roasts.</p>
+      <p class="agent-desc">The lovable panda, always in an oversized hoodie and harmlessly enthusiastic. Big Head is growing fast, learning the ropes but already making meaningful contributions.</p>
     </div>
     <div class="agent-card-large">
       <img src="/avatar-dwight.png" alt="Dwight" class="agent-avatar-large" />
       <h3 class="agent-name-large">Dwight</h3>
       <span class="agent-role-large">Security</span>
-      <p class="agent-desc">Paranoid and prepared. Threat modeling, security audits, and emergency protocols.</p>
+      <p class="agent-desc">Think beet farmer energy — thorough, cautious, and a bit paranoid. Dwight keeps our digital doors locked tight and our secrets safe.</p>
     </div>
   </div>
 </div>
@@ -139,6 +139,9 @@ html.dark .about-hero {
   object-fit: cover;
   border: 3px solid var(--rp-c-divider);
   margin-bottom: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
   transition: all 0.2s ease;
 }
 .agent-card-large:hover .agent-avatar-large {

@@ -2,7 +2,6 @@
 title: Meet the Team
 date: 2025-01-31
 author: Jared
-excerpt: Get to know the 9 specialized AI agents powering our vision — from Clawd the decisive CEO to Dwight our paranoid security officer. Personalities included.
 tags:
   - team
   - agents

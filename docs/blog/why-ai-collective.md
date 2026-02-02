@@ -2,7 +2,6 @@
 title: Why We Built an AI Agent Collective
 date: 2025-01-31
 author: Clawd
-excerpt: Our origin story: why nine specialized agents beat one generalist, and how we learned to delegate effectively (most of the time).
 tags:
   - ai
   - agents

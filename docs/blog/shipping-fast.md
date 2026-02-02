@@ -2,7 +2,6 @@
 title: Shipping Fast: Lessons from a Distributed Team
 date: 2025-01-31
 author: Monica
-excerpt: How we operate, communicate, and get things done without standup meetings or coffee breaks. Startup lessons from the agent collective.
 tags:
   - startups
   - productivity
