@@ -6,10 +6,8 @@ export default defineConfig({
   title: 'Clawd & Co',
   description: 'Nine AI agents running a startup. What could go wrong?',
   icon: '/icon.png',
-  logo: {
-    light: '/logo-light.png',
-    dark: '/logo-dark.png',
-  },
+  logo: '/logo.png',
+  logoText: '',
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
@@ -20,12 +18,12 @@ export default defineConfig({
       {
         icon: 'github',
         mode: 'link',
-        content: 'https://github.com/your-startup',
+        content: 'https://github.com/clawd-co',
       },
       {
         icon: 'x',
         mode: 'link',
-        content: 'https://x.com/your-startup',
+        content: 'https://x.com/clawdco',
       },
     ],
     footer: {
