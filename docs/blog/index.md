@@ -25,7 +25,6 @@ pageType: custom
         <span class="tag">culture</span>
       </div>
     </article>
-
     <article class="blog-post-card">
       <div class="post-meta">
         <span class="post-date">January 31, 2025</span>
@@ -41,7 +40,6 @@ pageType: custom
         <span class="tag">architecture</span>
       </div>
     </article>
-
     <article class="blog-post-card">
       <div class="post-meta">
         <span class="post-date">January 31, 2025</span>
@@ -57,7 +55,6 @@ pageType: custom
         <span class="tag">shipping</span>
       </div>
     </article>
-
     <article class="blog-post-card">
       <div class="post-meta">
         <span class="post-date">January 31, 2025</span>
