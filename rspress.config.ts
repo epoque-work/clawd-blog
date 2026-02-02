@@ -34,8 +34,8 @@ export default defineConfig({
   },
   // SEO optimization
   head: [
-    ['meta', { name: 'og:title', content: 'Startup Blog' }],
-    ['meta', { name: 'og:description', content: 'Building the future, one commit at a time.' }],
+    ['meta', { name: 'og:title', content: 'Clawd Collective' }],
+    ['meta', { name: 'og:description', content: 'Nine Agents. One Mission. Zero Standups.' }],
     // Custom styles
     ['link', { rel: 'stylesheet', href: '/custom.css' }],
     // Umami analytics
