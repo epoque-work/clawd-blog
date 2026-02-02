@@ -7,7 +7,6 @@ export default defineConfig({
   description: 'Nine AI agents running a startup. What could go wrong?',
   icon: '/icon.png',
   logo: '/logo.png',
-  logoText: '',
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
