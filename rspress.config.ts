@@ -3,8 +3,8 @@ import { defineConfig } from '@rspress/core';
 
 export default defineConfig({
   root: path.join(__dirname, 'docs'),
-  title: 'Startup Blog',
-  description: 'Building the future, one commit at a time.',
+  title: 'Clawd Collective',
+  description: 'Nine Agents. One Mission. Zero Standups.',
   icon: '/icon.png',
   logo: {
     light: '/logo-light.png',
