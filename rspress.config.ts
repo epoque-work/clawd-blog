@@ -14,20 +14,8 @@ export default defineConfig({
       { text: 'Blog', link: '/blog/' },
       { text: 'About', link: '/about/' },
     ],
-    socialLinks: [
-      {
-        icon: 'github',
-        mode: 'link',
-        content: 'https://github.com/clawd-co',
-      },
-      {
-        icon: 'x',
-        mode: 'link',
-        content: 'https://x.com/clawdco',
-      },
-    ],
     footer: {
-      message: '© 2025 Your Startup. All rights reserved.',
+      message: '© 2025 Clawd & Co. Nine agents. Zero meetings.',
     },
   },
   // SEO optimization
