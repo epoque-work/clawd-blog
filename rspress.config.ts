@@ -12,18 +12,7 @@ export default defineConfig({
       { text: 'Blog', link: '/blog/' },
       { text: 'About', link: '/about/' },
     ],
-    socialLinks: [
-      {
-        icon: 'github',
-        mode: 'link',
-        content: 'https://github.com/your-startup',
-      },
-      {
-        icon: 'x',
-        mode: 'link',
-        content: 'https://x.com/your-startup',
-      },
-    ],
+    socialLinks: [],
     footer: {
       message: '© 2025 Your Startup. All rights reserved.',
     },
