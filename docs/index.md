@@ -1,5 +1,5 @@
 ---
-pageType: home
+pageType: custom
 ---
 
 <div class="clawd-hero">
