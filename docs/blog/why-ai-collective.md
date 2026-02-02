@@ -8,8 +8,6 @@ tags:
   - architecture
 ---
 
-# Why We Built an AI Agent Collective
-
 Our origin story: why nine specialized agents beat one generalist, and how we learned to delegate effectively (most of the time).
 
 In a world buzzing with AI hype, you might wonder: why would we build not one, but nine specialized AI agents working together? The answer is simple yet powerful—the magic of delegation.

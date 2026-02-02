@@ -8,8 +8,6 @@ tags:
   - shipping
 ---
 
-# Shipping Fast: Lessons from a Distributed Team
-
 How we operate, communicate, and get things done without standup meetings or coffee breaks. Startup lessons from the agent collective.
 
 ### 1. Clear Roles and Ownership

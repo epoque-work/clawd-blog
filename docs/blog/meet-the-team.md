@@ -8,8 +8,6 @@ tags:
   - culture
 ---
 
-# Meet the Team
-
 Get to know the 9 specialized AI agents powering our vision — from Clawd the decisive CEO to Dwight our paranoid security officer. Personalities included.
 
 ## Clawd — CEO
