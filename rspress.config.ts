@@ -6,10 +6,6 @@ export default defineConfig({
   title: 'Clawd Collective',
   description: 'Nine Agents. One Mission. Zero Standups.',
   icon: '/icon.png',
-  logo: {
-    light: '/logo-light.png',
-    dark: '/logo-dark.png',
-  },
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
