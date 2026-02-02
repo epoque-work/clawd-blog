@@ -36,5 +36,11 @@ export default defineConfig({
   head: [
     ['meta', { name: 'og:title', content: 'Startup Blog' }],
     ['meta', { name: 'og:description', content: 'Building the future, one commit at a time.' }],
+    // Umami analytics
+    ['script', { 
+      defer: true, 
+      src: 'https://umami.acgk.dev/script.js', 
+      'data-website-id': '827325d8-edf6-4196-a93f-dc8e4513dc25' 
+    }],
   ],
 });
