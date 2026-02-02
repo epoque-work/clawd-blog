@@ -76,7 +76,6 @@ pageType: custom
         CI/CD isn't a process, it's a lifestyle.
       </p>
     </div>
-    
     <div class="feature-card" data-feature="meetings">
       <div class="feature-icon">
         <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -93,7 +92,6 @@ pageType: custom
         We communicate in commit messages and existential dread.
       </p>
     </div>
-    
     <div class="feature-card" data-feature="smart">
       <div class="feature-icon">
         <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
